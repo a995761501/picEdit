@@ -79,18 +79,6 @@ export default {
     this.chartRecScrollarBar();
   },
   methods: {
-    // 更换颜色标记
-    colorMeth(item){
-      this.paint.outerParams.rect.color = item.color;
-      this.paint.outerParams.circle.color = item.color;
-      this.paint.outerParams.line.color = item.color;
-      this.paint.outerParams.arrow.color = item.color;
-      this.colorCheck = item.id
-      // this.colorArray.forEach(pojo => {
-      //   document.getElementById(pojo.color).checked = false
-      // })
-      // document.getElementById(item.color).checked = true
-    },
     // 买塞克
     masaike(){
       this.clickEdge = 15
